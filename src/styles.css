@@ -1,0 +1,46 @@
+body {
+  font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  max-width: 1000px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+button {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.search {
+  margin: 20px;
+  text-align: center;
+}
+.col {
+  text-align: center;
+  margin: 10px 20px;
+  padding: 0;
+}
+.day {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.card-text {
+  font-size: 25px;
+  font-weight: 700;
+}
+.icon {
+  font-size: 40px;
+}
+.sun {
+  color: rgb(236, 236, 112);
+}
+.rain {
+  color: rgb(26, 26, 211);
+}
+.wind {
+  color: gray;
+}
