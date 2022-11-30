@@ -2,6 +2,8 @@ function showTemperature(response) {
   let currentTemperature = Math.round(response.data.main.temp);
   let grads = document.querySelector("#grad-value");
   grads.innerHTML = `${currentTemperature}`;
+  let city = document.querySelector("#city-input");
+  city.innerHTML = response.data.name;
 }
 
 function searchCity(event) {
